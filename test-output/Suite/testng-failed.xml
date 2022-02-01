@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="passward" value="Amol@1234"/>
+    <parameter name="email" value="amolyadav006@gmail.com"/>
+    <parameter name="Browser" value="gecko"/>
+    <classes>
+      <class name="Demo2.O">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="closedbconnection"/>
+          <include name="openbrowser"/>
+          <include name="getscreenshot"/>
+          <include name="login1"/>
+          <include name="getURL"/>
+          <include name="deleteallcookies"/>
+          <include name="getcookies"/>
+          <include name="login2"/>
+          <include name="URLMaximizie"/>
+        </methods>
+      </class> <!-- Demo2.O -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
